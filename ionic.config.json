@@ -1,0 +1,7 @@
+{
+  "name": "qr-app-movil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
