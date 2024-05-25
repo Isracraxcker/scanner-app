@@ -11,3 +11,5 @@ SCANNER APP IONIC-ANGULAR
   
   4.Then run: ionic serve
 
+  THANKSS
+  
