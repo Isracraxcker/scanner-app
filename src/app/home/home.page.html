@@ -31,7 +31,7 @@
 <div class="segment" *ngIf="segment === 'scan'">
   <div class="segment-content">
   
-    <img src="assets/images/scan-qr.webp" alt="">
+    <img src="assets/images/scan-qr.png" alt="">
 
     <h6 class="scan-label">Escanea o selecciona una imagen con codigo QR</h6>
   <ion-row>
@@ -85,7 +85,7 @@
     <div class="d-flex-center">
       <div class="d-flex-center qr-wrapper">
         <qr-code *ngIf="qrText" [value]="qrText" size="190" errorCorrectionLevel="M"></qr-code>
-       <img *ngIf="!qrText" class="qr-placeholder" src="assets/images/qr.webp" alt="">
+       <img *ngIf="!qrText" class="qr-placeholder" src="assets/images/qr.png" alt="">
       </div>
 
     </div>
