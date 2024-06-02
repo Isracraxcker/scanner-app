@@ -19,3 +19,4 @@
 
 
   
+**FUNCIONA EN DISPOSITIVOS ANDROID, desarrollaremos la app para IOs dentro de poco!!**
