@@ -56,7 +56,7 @@ export class HomePage implements OnInit {
 // CODIGOOO DE SALIDA- BOTON DE VOLVER
   async confirmExit() {
     const alert = await this.alertController.create({
-      header: 'Confirmar salida',
+      //header: 'Confirmar salida',
       message: '¿Estás seguro de que quieres salir?',
       mode: 'ios',
       buttons: [
@@ -214,7 +214,7 @@ export class HomePage implements OnInit {
 
   const alert = await this.alertController.create({
     header: 'Confirmar!',
-    message: 'Quieres abrir este enlace en el navegador?',
+    message: '¿Quieres abrir este enlace en el navegador?',
     mode: 'ios',
     buttons: [
       {
