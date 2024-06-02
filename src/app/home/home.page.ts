@@ -214,7 +214,7 @@ export class HomePage implements OnInit {
 
   const alert = await this.alertController.create({
    
-    message: '¿Quieres abrir este enlace en el navegador?',
+    message: '¿Quiere abrir este enlace en el navegador?',
     mode: 'ios',
     buttons: [
       {
