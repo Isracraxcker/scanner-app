@@ -1,4 +1,4 @@
-SCANNER APP IONIC-ANGULAR
+ **SCANNER APP IONIC-ANGULAR**
 
   1.Install Nodejs https://nodejs.org/es/
   
@@ -13,7 +13,7 @@ SCANNER APP IONIC-ANGULAR
 
   THANKSS
 
-¿COMO SE VE EN MOVIL?
+**¿COMO SE VE EN MOVIL?**
 
 ![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/973a0410-8789-47d6-88ff-33466330cf98)
 
