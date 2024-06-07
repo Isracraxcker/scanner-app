@@ -29,20 +29,20 @@ export class HomePage implements OnInit {
     private modalController: ModalController,
     private toastController: ToastController,
     private alertController: AlertController,
-   
+
   ) { }
 
 
 
   ngOnInit(): void {
-     
+
     this.platform.backButton.subscribeWithPriority(0, async () => {
       // Lógica para salir de la aplicación al presionar el botón de "volver"
       if (this.platform.is('android')) {
         await this.confirmExit();
       }
     });
-  
+
 
     if (this.platform.is('capacitor')) {
 
@@ -53,7 +53,7 @@ export class HomePage implements OnInit {
     }
   }
 
-// CODIGOOO DE SALIDA- BOTON DE VOLVER
+  // CODIGOOO DE SALIDA- BOTON DE VOLVER
   async confirmExit() {
     const alert = await this.alertController.create({
       //header: 'Confirmar salida',
@@ -84,16 +84,16 @@ export class HomePage implements OnInit {
   // BORRRAR ESCANEO RECIENTE
   async borrarScanResult() {
     this.scanResult = '';
-  
+
     const toast = await this.toastController.create({
       message: 'El escaneo se ha borrado.',
       duration: 2000, // Duración de 2 segundos
       color: 'dark',
       icon: 'trash-outline',
-      position: 'bottom' ,// Posición del toast en la parte inferior
+      position: 'bottom',// Posición del toast en la parte inferior
       mode: 'ios'
     });
-  
+
     await toast.present();
   }
 
@@ -114,10 +114,12 @@ export class HomePage implements OnInit {
 
     if (data) {
       this.scanResult = data?.barcode?.displayValue;
+
     }
 
 
   }
+
   async readBarcodeFromImage() {
 
     const { files } = await FilePicker.pickImages();
@@ -132,6 +134,9 @@ export class HomePage implements OnInit {
 
     this.scanResult = barcodes[0].displayValue;
   }
+
+
+  
 
 
   captureScreen() {
@@ -209,40 +214,40 @@ export class HomePage implements OnInit {
 
 
 
- openCapacitorSite = async () => {
+  openCapacitorSite = async () => {
 
 
-  const alert = await this.alertController.create({
-   
-    message: '¿Quiere abrir este enlace en el navegador?',
-    mode: 'ios',
-    buttons: [
-      {
-        text: 'Cancelar',
-        role: 'cancel',
-    
-      }, {
-        text: 'Ok',
-        handler: async () => {
-          let url = this.scanResult;
-          if (!url.startsWith('https://')) url = 'https://' + url;
-          
-          await Browser.open({ url });
+    const alert = await this.alertController.create({
+
+      message: '¿Quiere abrir este enlace en el navegador?',
+      mode: 'ios',
+      buttons: [
+        {
+          text: 'Cancelar',
+          role: 'cancel',
+
+        }, {
+          text: 'Ok',
+          handler: async () => {
+            let url = this.scanResult;
+            if (!url.startsWith('https://')) url = 'https://' + url;
+
+            await Browser.open({ url });
+          }
         }
-      }
-    ]
-  });
+      ]
+    });
 
-  await alert.present();
-
+    await alert.present();
 
 
 
 
 
-};
 
-  isUrl(){
+  };
+
+  isUrl() {
     let regex = /\.(com|net|io|me|crypto|ai)\b/i;
     return regex.test(this.scanResult);
   }

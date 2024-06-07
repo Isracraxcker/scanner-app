@@ -66,6 +66,57 @@ ion-segment{
    justify-content: center;
    align-items: center;
  }
- 
+
+ .result-card {
+  --background: var(--ion-color-dark);
+  color: #fff; /* Texto blanco */
+  border-radius: 15px; /* Borde redondeado de 15px */
+  
+  ion-card-header {
+    --background: var(--ion-color-dark); /* Fondo negro */
+      color: #fff; /* Texto blanco */
+  }
+
+  ion-card-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+  }
+
+  ion-card-content {
+      p {
+          font-size: 1.1rem;
+          margin-bottom: 1rem;
+      }
+
+      .custom-button {
+          --padding-start: 12px;
+          --padding-end: 12px;
+          --padding-top: 12px;
+          --padding-bottom: 12px;
+          --border-radius: 8px;
+          --min-height: 50px;
+          font-size: 1rem;
+
+          ion-icon {
+              font-size: 1.2rem;
+          }
+
+          &[color="primary"] {
+              --background: #007bff; /* Azul */
+              --color: #fff; /* Texto blanco */
+          }
+
+          &[color="secondary"] {
+              --background: #6c757d; /* Gris */
+              --color: #fff; /* Texto blanco */
+          }
+
+          &[color="danger"] {
+              --background: #dc3545; /* Rojo */
+              --color: #fff; /* Texto blanco */
+          }
+      }
+  }
+}
  
  
