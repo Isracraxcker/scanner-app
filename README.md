@@ -22,7 +22,18 @@ npm install --legacy-peer-deps
 
 ## **¿COMO SE VE EN MOVIL?**
 
-![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/973a0410-8789-47d6-88ff-33466330cf98)
+- **SCANEADOR DE QR**
+
+![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/a5a499ea-5196-4fd4-bbde-54688294d181)  
+
+
+
+- **GENERADOR DE QR**
+
+
+![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/54904677-87af-419a-8769-3fd03278256f)
+
+
 
 
   
