@@ -1,18 +1,18 @@
- ## SCANNER APP IONIC-ANGULAR
+ ## SCANNER APP IONIC-ANGULAR**
 
 - Install Nodejs https://nodejs.org/es/
   
   
-- Open a terminal and run this command: npm install -g @ionic/cli
-  
+- Open a terminal and run this command: 
+```text  
+npm install -g @ionic/cli
+  ```
   
 - Clone the project, open a terminal in the root folder and run this command:
   
 ```text  
-npm install --legacy-peer-deps  
+npm install --legacy-peer-deps
   ```
-
-  
 
   
 - Then run: ionic serve
@@ -20,7 +20,7 @@ npm install --legacy-peer-deps
  
 <br>
 
-**¿COMO SE VE EN MOVIL?**
+## **¿COMO SE VE EN MOVIL?**
 
 ![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/973a0410-8789-47d6-88ff-33466330cf98)
 
