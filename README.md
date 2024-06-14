@@ -1,4 +1,4 @@
- ## SCANNER APP IONIC-ANGULAR**
+ ## SCANNER APP IONIC-ANGULAR
 
 - Install Nodejs https://nodejs.org/es/
   
