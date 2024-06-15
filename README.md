@@ -1,21 +1,39 @@
- **SCANNER APP IONIC-ANGULAR**
+ ## SCANNER APP IONIC-ANGULAR
 
-  1.Install Nodejs https://nodejs.org/es/
+- Install Nodejs https://nodejs.org/es/
   
   
-  2.Open a terminal and run this command: npm install -g @ionic/cli
+- Open a terminal and run this command: 
+```text  
+npm install -g @ionic/cli
+  ```
   
+- Clone the project, open a terminal in the root folder and run this command:
   
-  3.Clone the project, open a terminal in the root folder and run this command: npm install --legacy-peer-deps
+```text  
+npm install --legacy-peer-deps
+  ```
 
   
-  4.Then run: ionic serve
+- Then run: ionic serve
 
-  THANKSS
+ 
+<br>
 
-**¿COMO SE VE EN MOVIL?**
+## **¿COMO SE VE EN MOVIL?**
 
-![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/973a0410-8789-47d6-88ff-33466330cf98)
+- **SCANEADOR DE QR**
+
+![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/a5a499ea-5196-4fd4-bbde-54688294d181)  
+
+
+
+- **GENERADOR DE QR**
+
+
+![image](https://github.com/Isracraxcker/scanner-app/assets/133439166/54904677-87af-419a-8769-3fd03278256f)
+
+
 
 
   
