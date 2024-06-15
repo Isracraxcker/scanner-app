@@ -38,3 +38,4 @@ npm install --legacy-peer-deps
 
   
 **FUNCIONA EN DISPOSITIVOS ANDROID, desarrollaremos la app para IOs dentro de poco!!**
+**Conflictos en la web**
