@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Escaneador QR y Generador QR</string>
+    <string name="title_activity_main">Escaneador y Generador QR</string>
+    <string name="package_name">com.isradevv.qrscanner</string>
+    <string name="custom_url_scheme">com.isradevv.qrscanner</string>
+  <string name="todo">TODO</string>
+</resources>

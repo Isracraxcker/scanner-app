@@ -1,0 +1,135 @@
+ion-segment{
+  margin-top: 20px;
+ }
+ 
+ .segment{
+   padding: 30px 5px;
+ }
+ 
+ .submit {
+  height: 44px;
+  --border-radius: 10px;
+  --background: #12327c; /* Cambiado a tu color deseado */
+}
+ 
+ .scan-label{
+   margin: 25px 0;
+ }
+ 
+ img{
+   width: 200px;
+ }
+ 
+ .result{
+   color: black;
+   border: 1px dashed var(--ion-color-medium);
+   border-radius: 10px;
+   margin: 30px 0;
+ 
+   p{
+     color: var(--ion-color-tertiary);
+     margin-bottom: 5px;
+     font-size: 11px;
+   }
+ 
+   h6{
+     margin-top: 0;
+   }
+ }
+ 
+ ion-button{
+   text-transform: none;
+ }
+ 
+ ion-textarea{
+   --highlight-color-valid: var(--ion-color-tertiary);
+   text-align: start;
+ }
+ 
+ #qrImage{
+   padding: 20px ;
+ }
+ 
+ .qr-wrapper{
+   width: 230px; 
+   min-height: 230px;
+   background: var(--ion-color-dark); 
+   border-radius: 20px;
+ }
+ 
+ .qr-placeholder{
+   width: 60px; 
+ }
+ 
+ .d-flex-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .result-card {
+  --background: var(--ion-color-dark);
+  color: #fff; /* Texto blanco */
+  border-radius: 15px; /* Borde redondeado de 15px */
+  
+  ion-card-header {
+    --background: var(--ion-color-dark); /* Fondo negro */
+      color: #fff; /* Texto blanco */
+  }
+
+  ion-card-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+  }
+
+  ion-card-content {
+      p {
+          font-size: 1.1rem;
+          margin-bottom: 1rem;
+      }
+
+      .custom-button {
+          --padding-start: 12px;
+          --padding-end: 12px;
+          --padding-top: 12px;
+          --padding-bottom: 12px;
+          --border-radius: 8px;
+          --min-height: 50px;
+          font-size: 1rem;
+
+          ion-icon {
+              font-size: 1.2rem;
+          }
+
+          &[color="primary"] {
+              --background: #007bff; /* Azul */
+              --color: #fff; /* Texto blanco */
+          }
+
+          &[color="secondary"] {
+              --background: #6c757d; /* Gris */
+              --color: #fff; /* Texto blanco */
+          }
+
+          &[color="danger"] {
+              --background: #dc3545; /* Rojo */
+              --color: #fff; /* Texto blanco */
+          }
+      }
+  }
+}
+
+ion-toolbar {
+  --background: #12327c;
+  --color: white;
+
+
+  
+  --border-style: double;
+
+  --min-height: 80px;
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+}
+ 
+ 
