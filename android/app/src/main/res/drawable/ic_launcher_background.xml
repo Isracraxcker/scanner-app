@@ -8,7 +8,11 @@
       android:scaleY="1.05"
       android:translateX="-2.7"
       android:translateY="-2.7">
+<<<<<<< HEAD
       <path android:fillColor="@color/common_google_signin_btn_text_dark_default"
+=======
+      <path android:fillColor="#3DDC84"
+>>>>>>> c70eed69407fc43c227f55da806ce46048bacace
             android:pathData="M0,0h108v108h-108z"/>
       <path android:fillColor="#00000000" android:pathData="M9,0L9,108"
             android:strokeColor="#33FFFFFF" android:strokeWidth="0.8"/>

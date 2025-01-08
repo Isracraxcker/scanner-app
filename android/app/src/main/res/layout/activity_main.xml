@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.appcompat.widget.LinearLayoutCompat
   xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> c70eed69407fc43c227f55da806ce46048bacace
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
   android:gravity="center"
   android:padding="10dp"
     tools:context=".MainActivity">
@@ -16,3 +21,12 @@
     android:src="@mipmap/logo"
     />
 </androidx.appcompat.widget.LinearLayoutCompat >
+=======
+    tools:context=".MainActivity">
+
+  <WebView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotationX="-6" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+>>>>>>> c70eed69407fc43c227f55da806ce46048bacace

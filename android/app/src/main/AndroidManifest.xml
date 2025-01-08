@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+<<<<<<< HEAD
   <uses-feature
     android:name="android.hardware.camera"
     android:required="false" />
@@ -9,6 +10,13 @@
         android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/logo_round"
+=======
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+>>>>>>> c70eed69407fc43c227f55da806ce46048bacace
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 

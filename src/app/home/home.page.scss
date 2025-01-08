@@ -6,11 +6,19 @@ ion-segment{
    padding: 30px 5px;
  }
  
+<<<<<<< HEAD
  .submit {
   height: 44px;
   --border-radius: 10px;
   --background: #12327c; /* Cambiado a tu color deseado */
 }
+=======
+ .submit{
+   height: 44px;
+   --border-radius: 10px;
+   --background: var(--ion-color-dark);
+ }
+>>>>>>> c70eed69407fc43c227f55da806ce46048bacace
  
  .scan-label{
    margin: 25px 0;
@@ -118,6 +126,7 @@ ion-segment{
       }
   }
 }
+<<<<<<< HEAD
 
 ion-toolbar {
   --background: #12327c;
@@ -131,5 +140,7 @@ ion-toolbar {
   --padding-top: 20px;
   --padding-bottom: 20px;
 }
+=======
+>>>>>>> c70eed69407fc43c227f55da806ce46048bacace
  
  
